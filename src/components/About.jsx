@@ -13,7 +13,7 @@ const exploring = [
 
 export default function About() {
   return (
-    <section id="about" className="fade-up" style={{ padding: "6rem 2.5rem", maxWidth: "1100px", margin: "0 auto" }}>
+    <section id="about" className="fade-up section-pad" style={{ padding: "6rem 2.5rem", maxWidth: "1100px", margin: "0 auto" }}>
       <div style={{ fontSize: "0.75rem", fontFamily: "'DM Mono', monospace", color: "var(--accent2)", textTransform: "uppercase", letterSpacing: "0.15em", marginBottom: "0.75rem", display: "flex", alignItems: "center", gap: "8px" }}>
         <span style={{ width: 24, height: 1, background: "var(--accent2)", display: "inline-block" }} /> About
       </div>
