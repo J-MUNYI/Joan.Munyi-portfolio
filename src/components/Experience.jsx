@@ -25,7 +25,7 @@ const timeline = [
     org: "Kenyatta University",
     date: "2024 – Present",
     points: [
-      "Coursework: Data Structures & Algorithms, Object-Oriented Programming (Java),Web Development, System analysis and sesign, Software testing and quality assurance, Database Systems (SQL), OS.",
+      "Coursework: Data Structures & Algorithms, Object-Oriented Programming (Java), Web Development, System Analysis and Design, Software Testing and Quality Assurance, Database Systems (SQL), OS etc",
       "Actively building real projects outside class to apply and extend academic knowledge.",
     ],
   },
