@@ -1,4 +1,6 @@
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="section-pad footer-shell" style={{
       borderTop: "1px solid color-mix(in srgb, var(--accent) 20%, transparent)",
