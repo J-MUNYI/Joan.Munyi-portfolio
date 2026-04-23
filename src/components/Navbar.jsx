@@ -31,7 +31,7 @@ export default function Navbar({ isDark, toggleTheme }) {
       transition: "all 0.3s",
     }}>
       <span style={{ fontFamily: "'DM Serif Display', serif", fontSize: "1.3rem", color: "var(--accent)" }}>
-        JM.
+        JNM.
       </span>
 
       <button

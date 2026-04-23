@@ -14,7 +14,7 @@ export default function Landing({ onEnter }) {
         textAlign: "center",
         animation: "landingFadeUp 1s ease forwards", opacity: 0,
       }}>
-       Hello, I am <em style={{ fontStyle: "italic", color: "var(--accent)" }}>Joan Munyi.</em>
+       Hello, I am <em style={{ fontStyle: "italic", color: "var(--accent)" }}>Ngatha Munyi.</em>
       </h1>
 
       <p style={{
