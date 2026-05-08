@@ -32,6 +32,19 @@ const certs = [
     image: "/certificates/cert-3.jpeg",
     color: "#f5a623",
   },
+
+  {
+    id: 4,
+    icon: <FaCode />,
+    name: "ALX AI career essentials",
+    issuer: "ALX Africa",
+    date: "2026",
+    image: "/certificates/cert-4.jpeg",
+    color: "#f5a623",
+  }
+
+   
+
  
   
 ];
