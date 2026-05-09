@@ -38,28 +38,47 @@ const exploring = [
 
 export default function About() {
   return (
-    <section className="about-section">
-      
-      <SectionHeader
-        label="About"
-        title="Skills & What I'm Learning"
-        description="My current technical toolkit, and the rabbit holes I'm currently going down."
-      />
+    <section
+      id="about"
+      className="fade-up"
+      style={{ background: "var(--bg2)", padding: "6rem 2.5rem" }}
+    >
+      <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+        <SectionHeader
+          label="About"
+          title="Skills & What I'm Learning"
+          description="My current technical toolkit, and the rabbit holes I'm currently going down."
+        />
 
-      <div className="skills-grid">
-        {skills.map((skill) => (
-          <SkillCard key={skill} skill={skill} />
-        ))}
+        {/* Skills */}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
+            gap: "1rem",
+            marginBottom: "3rem",
+          }}
+        >
+          {skills.map((skill) => (
+            <SkillCard key={skill} skill={skill} />
+          ))}
+        </div>
+
+        <SectionHeader label="Currently Exploring" />
+
+        {/* Exploring */}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))",
+            gap: "1rem",
+          }}
+        >
+          {exploring.map((item) => (
+            <ExploreCard key={item.title} {...item} />
+          ))}
+        </div>
       </div>
-
-      <SectionHeader label="Currently Exploring" />
-
-      <div className="explore-grid">
-        {exploring.map((item) => (
-          <ExploreCard key={item.title} {...item} />
-        ))}
-      </div>
-
     </section>
   );
 }
