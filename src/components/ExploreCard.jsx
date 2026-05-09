@@ -6,43 +6,53 @@ export default function ExploreCard({ icon: Icon, title, desc }) {
         background: "var(--surface)",
         border: "1px solid var(--border)",
         borderRadius: "14px",
-        padding: "1.2rem 1.25rem",
+        padding: "0.85rem 1rem",
         transition: "all 0.2s ease",
       }}
     >
-      <div style={{ display: "flex", alignItems: "flex-start", gap: "12px", marginBottom: "0.75rem" }}>
+      <div style={{ display: "flex", alignItems: "flex-start", gap: "10px" }}>
         <div
           style={{
-            width: 44,
-            height: 44,
-            borderRadius: 12,
-            background: "rgba(212, 175, 55, 0.10)",
-            border: "1px solid rgba(212, 175, 55, 0.22)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            color: "var(--accent)",
+            width: 10,
+            height: 10,
+            borderRadius: 999,
+            background: "var(--accent)",
+            marginTop: "0.35rem",
+            boxShadow: "0 0 0 2px color-mix(in srgb, var(--accent) 18%, transparent)",
             flexShrink: 0,
           }}
-        >
-          {Icon ? <Icon size={18} /> : null}
-        </div>
+        />
+        <div style={{ display: "flex", flexDirection: "column", gap: "6px", flex: 1 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+            {Icon ? (
+              <span style={{ color: "var(--accent)", display: "inline-flex" }}>
+                <Icon size={18} />
+              </span>
+            ) : null}
+            <div
+              style={{
+                fontFamily: "'DM Mono', monospace",
+                fontSize: "0.92rem",
+                color: "var(--text2)",
+                lineHeight: 1.5,
+              }}
+            >
+              {title}
+            </div>
+          </div>
 
-        <div style={{ fontFamily: "'DM Serif Display', serif", fontSize: "1.25rem", color: "var(--text)", lineHeight: 1.2 }}>
-          {title}
+          <p
+            style={{
+              fontSize: "0.88rem",
+              color: "var(--text3)",
+              lineHeight: 1.65,
+              margin: 0,
+            }}
+          >
+            {desc}
+          </p>
         </div>
       </div>
-
-      <p
-        style={{
-          fontSize: "0.88rem",
-          color: "var(--text2)",
-          lineHeight: 1.65,
-          margin: 0,
-        }}
-      >
-        {desc}
-      </p>
     </div>
   );
 }
