@@ -41,7 +41,17 @@ const certs = [
     date: "2026",
     image: "/certificates/cert-4.jpeg",
     color: "#f5a623",
-  }
+  },
+ {
+    id: 5,
+    icon: <FaGraduationCap />,
+    name: "Universal Acceptance Day 2026 Participation",
+    issuer: "KENIC",
+    date: "2026",
+    image: "/certificates/cert-5.jpeg",
+    color: "#d4af37",
+  },
+    
 
    
 
