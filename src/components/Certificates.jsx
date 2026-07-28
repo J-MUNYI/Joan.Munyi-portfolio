@@ -51,6 +51,24 @@ const certs = [
     image: "/certificates/cert-5.jpeg",
     color: "#d4af37",
   },
+  {
+    id: 6,
+    icon: <FaGraduationCap />,
+    name: "Professional Development skills for the digital age",
+    issuer: "ALX Africa",
+    date: "2026",
+    image: "/certificates/cert-6.jpeg",
+    color: "#d4af37",
+  },
+  {
+    id: 7,
+    icon: <FaGraduationCap />,
+    name: "Artificial Intellligence training",
+    issuer: "ICT Authority of Kenya",
+    date: "2026",
+    image: "/certificates/cert-7.jpeg",
+    color: "#d4af37",
+  },
     
 
    
