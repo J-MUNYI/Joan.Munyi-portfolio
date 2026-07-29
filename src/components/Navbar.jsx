@@ -30,8 +30,8 @@ export default function Navbar({ isDark, toggleTheme }) {
       borderBottom: scrolled ? "1px solid color-mix(in srgb, var(--accent) 26%, transparent)" : "1px solid transparent",
       transition: "all 0.3s",
     }}>
-      <span style={{ fontFamily: "'DM Serif Display', serif", fontSize: "1.3rem", color: "var(--accent)" }}>
-        JNM.
+      <span style={{ fontFamily: "'Inter', serif", fontSize: "1.3rem", color: "var(--accent)" }}>
+        Joan Ngatha Munyi.
       </span>
 
       <button

@@ -45,13 +45,7 @@ export default function Hero() {
       minHeight: "100vh", position: "relative", overflow: "hidden",
       backgroundColor: "var(--bg)",
     }}>
-      {/* Grid background */}
-      <div style={{
-        position: "absolute", inset: 0,
-        backgroundImage: "linear-gradient(color-mix(in srgb, var(--accent) 20%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in srgb, var(--accent) 20%, transparent) 1px, transparent 1px)",
-        backgroundSize: "60px 60px", pointerEvents: "none",
-      }} />
-
+      
       {/* Glow */}
       <div style={{
         position: "absolute", inset: 0,
@@ -75,11 +69,11 @@ export default function Hero() {
             fontSize: "0.78rem", color: "var(--text2)", fontFamily: "'DM Mono', monospace",
           }}>
             <span className="pulse-dot" style={{ width: 7, height: 7, borderRadius: "50%", background: "var(--green)", display: "inline-block" }} />
-            Available for internships & collaborations
+            OPEN TO SOFTWARE DEVELOPMENT OPPORTUNITIES.
           </div>
 
           <h1 style={{
-            fontFamily: "'DM Serif Display', serif",
+            fontFamily: "'Inter', sans-serif",
             fontSize: "clamp(2.5rem, 5vw, 4.5rem)",
             lineHeight: 1.05, letterSpacing: "-0.02em",
             marginBottom: "1.5rem", color: "var(--text)",
@@ -97,9 +91,10 @@ export default function Hero() {
             fontSize: "1rem", color: "var(--text2)", maxWidth: "520px",
             marginBottom: "2.5rem", lineHeight: 1.7, fontWeight: 300,
           }}>
-            Full stack developer & CS student at Kenyatta University. I build real products
-            with the MERN stack, from consulting platforms to apps tackling personal finance,
-            sustainability, and education.
+            I am a Full-Stack Software Developer who loves building practical, scalable and user friendly web applications across the frontend and backend.
+            I work primarily with modern Javascript technologies with my core stack being MERN, with hands-on experience in API development, database integration, authentication and deployment.
+            I am also exploring AI powered applications and technologies with a growing interest of the intersection between intelligent systems and software engineering.
+
           </p>
 
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
@@ -140,9 +135,9 @@ export default function Hero() {
             paddingTop: "2.5rem", borderTop: "1px solid color-mix(in srgb, var(--accent) 20%, transparent)",
             flexWrap: "wrap",
           }}>
-            {[["4+", "Projects Built"], ["MERN", "Core Stack"], ["2024", "Started CS Degree"]].map(([num, label]) => (
+            {[["Full-Stack Development", "Frontend • Backend • APIs"], ["MERN Stack", "React • Node.js • MongoDB"], ["Exploring", "AI • Web3 • Emerging Tech"]].map(([num, label]) => (
               <div key={label}>
-                <div style={{ fontFamily: "'DM Serif Display', serif", fontSize: "2rem", color: "var(--accent2)" }}>{num}</div>
+                <div style={{ fontFamily: "'Inter', sans-serif", fontSize: "2rem", color: "var(--accent2)" }}>{num}</div>
                 <div style={{ fontSize: "0.8rem", color: "var(--text3)", textTransform: "uppercase", letterSpacing: "0.1em" }}>{label}</div>
               </div>
             ))}
