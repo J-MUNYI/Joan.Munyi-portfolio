@@ -3,7 +3,7 @@ import SkillCard from './SkillCard';
 import ExploreCard from './ExploreCard';
 
 import { FiSettings } from "react-icons/fi";
-import { FaLink } from "react-icons/fa";
+import { FaCoins, FaLink } from "react-icons/fa";
 import { GiArtificialIntelligence } from "react-icons/gi";
 import { BsDiagram3 } from "react-icons/bs";
 
@@ -16,23 +16,18 @@ const skills = [
 const exploring = [
   {
     icon: FiSettings,
-    title: "MERN Stack Depth",
-    desc: "Going deeper into full stack patterns, middleware, and scalable app architecture.",
-  },
-  {
-    icon: FaLink,
-    title: "API Development",
-    desc: "Building and consuming RESTful APIs, authentication flows, and async patterns.",
+    title: "Software Architecture",
+    desc: "Deepening my understanding of scalable backend architecture, system design and maintainable full-stack applications.",
   },
   {
     icon: GiArtificialIntelligence,
-    title: "AI & RAG Systems",
-    desc: "Exploring retrieval augmented generation and practical AI integrations in web apps.",
+    title: "AI-Powered Apps",
+    desc: "Integrating AI capabilities into practical software applications and exploring RAG based systems.",
   },
   {
-    icon: BsDiagram3,
-    title: "Backend Architecture",
-    desc: "Studying scalable design patterns, database optimisation, and microservice concepts.",
+    icon: FaCoins,
+    title: "Web3",
+    desc: "Building decentralized applications, exploring blockchain based solutionsand smart contract integration.",
   },
 ];
 
@@ -46,8 +41,8 @@ export default function About() {
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
         <SectionHeader
           label="About"
-          title="Skills & What I'm Learning"
-          description="My current technical toolkit, and the rabbit holes I'm currently going down."
+          title="Skills & Technical Expertise"
+          description="My core development toolkit and the areas I'm currently deepening my expertise in."
         />
 
         {/* Skills */}
