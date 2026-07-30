@@ -13,7 +13,7 @@ export default function SectionHeader({ label, title, description }) {
         <div
           style={{
             fontSize: "0.75rem",
-            fontFamily: "'DM Mono', monospace",
+            fontFamily: "'Inter', sans-serif",
             color: "var(--accent2)",
             textTransform: "uppercase",
             letterSpacing: "0.15em",
@@ -38,7 +38,7 @@ export default function SectionHeader({ label, title, description }) {
       {title ? (
         <h2
           style={{
-            fontFamily: "'DM Serif Display', serif",
+            fontFamily: "'Inter', sans-serif",
             fontSize: "clamp(2rem, 4vw, 3rem)",
             color: "var(--text)",
             marginBottom: "1rem",

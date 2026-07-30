@@ -183,6 +183,13 @@ export default function Projects() {
   return (
     <section id="projects" className="fade-up section-pad" style={{ background: "var(--bg2)", padding: "6rem 2.5rem" }}>
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+                {/* Section separator between About and Projects */}
+        <div style={{
+          maxWidth: "1200px",
+          margin: "3rem auto",
+          padding: "0 2.5rem",
+          borderTop: "1px solid color-mix(in srgb, var(--accent) 25%, transparent)",
+        }} />
         <div style={{
           fontSize: "0.75rem", fontFamily: "'DM Mono', monospace",
           color: "var(--accent2)", textTransform: "uppercase",

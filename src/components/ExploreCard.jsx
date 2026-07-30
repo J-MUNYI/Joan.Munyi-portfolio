@@ -31,7 +31,7 @@ export default function ExploreCard({ icon: Icon, title, desc }) {
             ) : null}
             <div
               style={{
-                fontFamily: "'DM Mono', monospace",
+                fontFamily: "'Inter', sans-serif",
                 fontSize: "0.92rem",
                 color: "var(--text2)",
                 lineHeight: 1.5,
