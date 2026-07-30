@@ -88,12 +88,12 @@ function ProjectCard({ project }) {
           background: project.iconBg, color: project.iconColor,
           display: "flex", alignItems: "center", justifyContent: "center",
           fontSize: "0.85rem", fontWeight: "bold",
-          fontFamily: "'DM Serif Display', serif",
+          fontFamily: "'Inter', sans-serif",
         }}>
           {project.initials}
         </div>
         <span style={{
-          fontSize: "0.7rem", fontFamily: "'DM Mono', monospace",
+          fontSize: "0.7rem", fontFamily: "'Inter', sans-serif",
           padding: "4px 10px", borderRadius: "50px",
           border: `1px solid ${project.statusBorder}`,
           background: project.statusBg, color: project.statusColor,
@@ -102,7 +102,7 @@ function ProjectCard({ project }) {
         </span>
       </div>
 
-      <div style={{ fontFamily: "'DM Serif Display', serif", fontSize: "1.3rem", color: "var(--text)", marginBottom: "0.5rem" }}>
+      <div style={{ fontFamily: "'Inter', sans-serif", fontSize: "1.3rem", color: "var(--text)", marginBottom: "0.5rem" }}>
         {project.name}
       </div>
       <p style={{ fontSize: "0.88rem", color: "var(--text2)", lineHeight: 1.65, marginBottom: "1.25rem" }}>
@@ -113,7 +113,7 @@ function ProjectCard({ project }) {
       <div style={{ display: "flex", flexWrap: "wrap", gap: "6px", marginBottom: "1.25rem" }}>
         {project.tags.map((tag) => (
           <span key={tag} style={{
-            fontSize: "0.7rem", fontFamily: "'DM Mono', monospace",
+            fontSize: "0.7rem", fontFamily: "'Inter', sans-serif",
             background: "var(--bg3)", border: "1px solid var(--border)",
             padding: "3px 10px", borderRadius: "4px", color: "var(--text3)",
           }}>
@@ -191,7 +191,7 @@ export default function Projects() {
           borderTop: "1px solid color-mix(in srgb, var(--accent) 25%, transparent)",
         }} />
         <div style={{
-          fontSize: "0.75rem", fontFamily: "'DM Mono', monospace",
+          fontSize: "0.75rem", fontFamily: "'Inter', sans-serif",
           color: "var(--accent2)", textTransform: "uppercase",
           letterSpacing: "0.15em", marginBottom: "0.75rem",
           display: "flex", alignItems: "center", gap: "8px",
@@ -199,7 +199,7 @@ export default function Projects() {
           <span style={{ width: 24, height: 1, background: "var(--accent2)", display: "inline-block" }} />
           Projects
         </div>
-        <h2 style={{ fontFamily: "'DM Serif Display', serif", fontSize: "clamp(2rem,4vw,3rem)", color: "var(--text)", marginBottom: "1rem" }}>
+        <h2 style={{ fontFamily: "'Inter', sans-serif", fontSize: "clamp(2rem,4vw,3rem)", color: "var(--text)", marginBottom: "1rem" }}>
           Things I've Built
         </h2>
         <p style={{ fontSize: "1rem", color: "var(--text2)", maxWidth: "500px", marginBottom: "3rem", lineHeight: 1.7 }}>
