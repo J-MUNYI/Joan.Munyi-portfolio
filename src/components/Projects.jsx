@@ -2,6 +2,17 @@ import { useRef } from "react";
 
 const projects = [
   {
+    id: "shilingizen", initials: "SZ", name: "ShilingiZen",
+    statusLabel: "Live", isLive: true,
+    statusColor: "#22d37a",
+    statusBg: "rgba(34,211,122,0.08)", statusBorder: "rgba(34,211,122,0.3)",
+    iconBg: "rgba(34,211,122,0.12)", iconColor: "#22d37a",
+    desc: "Personal finance app built for young Kenyans to track income, set monthly budgets, and visualise spending by category.",
+    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Chart.js"],
+    liveUrl: "https://budget-zen-zeta.vercel.app/",
+    repoUrl: "https://github.com/J-MUNYI/Budget-zen",
+  },
+  {
     id: "agrifine", initials: "AG", name: "Agrifine Consulting",
     statusLabel: "Live", isLive: true,
     statusColor: "#22d37a",
@@ -13,23 +24,12 @@ const projects = [
     repoUrl: "https://github.com/J-MUNYI/Agrifine-.git",
   },
   {
-    id: "budgetzen", initials: "BZ", name: "BudgetZen",
-    statusLabel: "Live", isLive: true,
-    statusColor: "#22d37a",
-    statusBg: "rgba(34,211,122,0.08)", statusBorder: "rgba(34,211,122,0.3)",
-    iconBg: "rgba(34,211,122,0.12)", iconColor: "#22d37a",
-    desc: "Personal finance app built for young Kenyans to track income, set monthly budgets, and visualise spending by category.",
-    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Chart.js"],
-    liveUrl: "https://budget-zen-zeta.vercel.app/",
-    repoUrl: "https://github.com/J-MUNYI/Budget-zen",
-  },
-  {
     id: "supertaka", initials: "ST", name: "SuperTaka",
-    statusLabel: "In Progress", isLive: false,
+    statusLabel: "Live", isLive: true,
     statusColor: "#00d4c8",
     statusBg: "rgba(0,212,200,0.08)", statusBorder: "rgba(0,212,200,0.3)",
     iconBg: "rgba(0,212,200,0.1)", iconColor: "#00d4c8",
-    desc: "Environmental awareness app that helps users log daily habits, track their carbon footprint, and receive personalised sustainability tips.",
+    desc: "A waste trading marketplace for waste sellers and recyclers to encourage better waste management and promote the circular economy.",
     tags: ["React", "Express", "MongoDB", "Node.js", "Chart.js"],
     liveUrl: null,
     repoUrl: "https://github.com/J-MUNYI",
@@ -203,7 +203,7 @@ export default function Projects() {
           Things I've Built
         </h2>
         <p style={{ fontSize: "1rem", color: "var(--text2)", maxWidth: "500px", marginBottom: "3rem", lineHeight: 1.7 }}>
-          A mix of client work and personal projects — each one solving a problem I actually care about.
+          A selection of products I've built and brought to life, from client solutions to independent projects.
         </p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "1.5rem" }}>
           {projects.map((p) => <ProjectCard key={p.id} project={p} />)}
