@@ -34,10 +34,10 @@ const timeline = [
 export default function Experience() {
   return (
     <section id="experience" className="fade-up section-pad" style={{ padding: "6rem 2.5rem", maxWidth: "1200px", margin: "0 auto" }}>
-      <div style={{ fontSize: "0.75rem", fontFamily: "'DM Mono', monospace", color: "var(--accent2)", textTransform: "uppercase", letterSpacing: "0.15em", marginBottom: "0.75rem", display: "flex", alignItems: "center", gap: "8px" }}>
+      <div style={{ fontSize: "0.75rem", fontFamily: "'Inter', sans-serif", color: "var(--accent2)", textTransform: "uppercase", letterSpacing: "0.15em", marginBottom: "0.75rem", display: "flex", alignItems: "center", gap: "8px" }}>
         <span style={{ width: 24, height: 1, background: "var(--accent2)", display: "inline-block" }} /> Experience
       </div>
-      <h2 style={{ fontFamily: "'DM Serif Display', serif", fontSize: "clamp(2rem,4vw,3rem)", color: "var(--text)", marginBottom: "1rem" }}>
+      <h2 style={{ fontFamily: "'Inter', sans-serif", fontSize: "clamp(2rem,4vw,3rem)", color: "var(--text)", marginBottom: "1rem" }}>
         Where I've Been
       </h2>
       <p style={{ fontSize: "1rem", color: "var(--text2)", maxWidth: "500px", marginBottom: "3rem", lineHeight: 1.7 }}>
@@ -51,7 +51,7 @@ export default function Experience() {
             <div style={{ position: "absolute", left: "-1.5rem", top: 8, width: 9, height: 9, borderRadius: "50%", background: "var(--accent)", border: "2px solid var(--bg)", boxShadow: "0 0 0 3px color-mix(in srgb, var(--accent) 28%, transparent)" }} />
             <div style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: "8px", marginBottom: "0.5rem" }}>
               <span style={{ fontSize: "1rem", fontWeight: 600, color: "var(--text)" }}>{item.role}</span>
-              <span style={{ fontFamily: "'DM Mono', monospace", fontSize: "0.75rem", color: "var(--text3)" }}>{item.date}</span>
+              <span style={{ fontFamily: "'Inter', sans-serif", fontSize: "0.75rem", color: "var(--text3)" }}>{item.date}</span>
             </div>
             <div style={{ fontSize: "0.88rem", color: "var(--accent)", marginBottom: "0.75rem" }}>{item.org}</div>
             <ul style={{ listStyle: "none", padding: 0 }}>
