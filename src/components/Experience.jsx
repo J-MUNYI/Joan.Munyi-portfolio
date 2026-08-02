@@ -26,7 +26,7 @@ const timeline = [
     date: "2024 – Present",
     points: [
       "Coursework: Data Structures & Algorithms, Object-Oriented Programming (Java), Web Development, System Analysis and Design, Software Testing and Quality Assurance, Database Systems (SQL), OS etc",
-      "Actively building real projects outside class to apply and extend academic knowledge.",
+      "Actively building real projects outside class to extend academic knowledge.",
     ],
   },
 ];
