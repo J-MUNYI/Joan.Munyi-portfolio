@@ -95,7 +95,7 @@ export default function Certificates() {
         padding: "0 2.5rem", marginBottom: "3rem",
       }}>
         <div style={{
-          fontSize: "0.75rem", fontFamily: "'DM Mono', monospace",
+          fontSize: "0.75rem", fontFamily: "'Inter', sans-serif",
           color: "var(--accent2)", textTransform: "uppercase",
           letterSpacing: "0.15em", marginBottom: "0.75rem",
           display: "flex", alignItems: "center", gap: "8px",
@@ -104,7 +104,7 @@ export default function Certificates() {
           Certificates
         </div>
         <h2 style={{
-          fontFamily: "'DM Serif Display', serif",
+          fontFamily: "'Inter', sans-serif",
           fontSize: "clamp(2rem, 4vw, 3rem)",
           color: "var(--text)", marginBottom: "1rem",
         }}>
@@ -207,7 +207,7 @@ export default function Certificates() {
                   justifyContent: "center", gap: "6px",
                   opacity: 0, transition: "opacity 0.3s",
                   color: cert.color, fontSize: "0.82rem",
-                  fontFamily: "'DM Mono', monospace",
+                  fontFamily: "'Inter', sans-serif",
                   letterSpacing: "0.05em",
                 }}
                   onMouseEnter={(e) => (e.currentTarget.style.opacity = "1")}
@@ -232,7 +232,7 @@ export default function Certificates() {
                   <div style={{
                     fontSize: "0.88rem", fontWeight: 600,
                     color: "var(--text)", lineHeight: 1.3,
-                    fontFamily: "'DM Serif Display', serif",
+                    fontFamily: "'Inter', sans-serif",
                   }}>
                     {cert.name}
                   </div>
@@ -242,7 +242,7 @@ export default function Certificates() {
                 <div style={{
                   display: "flex", alignItems: "center", gap: "6px",
                   fontSize: "0.75rem", color: "var(--accent)",
-                  fontFamily: "'DM Mono', monospace", marginBottom: "6px",
+                  fontFamily: "'Inter', sans-serif", marginBottom: "6px",
                 }}>
                   <span style={{ fontSize: "0.85rem" }}>{cert.issuerIcon}</span>
                   {cert.issuer}
@@ -258,7 +258,7 @@ export default function Certificates() {
                 {/* Verified badge */}
                 <div style={{
                   display: "inline-flex", alignItems: "center", gap: "5px",
-                  fontSize: "0.65rem", fontFamily: "'DM Mono', monospace",
+                  fontSize: "0.65rem", fontFamily: "'Inter', sans-serif",
                   padding: "3px 10px", borderRadius: "50px",
                   background: "rgba(34,211,122,0.1)", color: "#22d37a",
                   border: "1px solid rgba(34,211,122,0.25)",
@@ -310,7 +310,7 @@ export default function Certificates() {
               }}>
                 {selected.icon}
                 <span style={{
-                  fontFamily: "'DM Serif Display', serif",
+                  fontFamily: "'Inter', sans-serif",
                   fontSize: "1rem", color: "var(--text)",
                 }}>
                   {selected.name}
@@ -373,7 +373,7 @@ export default function Certificates() {
                 <span style={{ fontSize: "1rem", color: "var(--accent)" }}>
                   {selected.issuerIcon}
                 </span>
-                <span style={{ color: "var(--accent)", fontFamily: "'DM Mono', monospace" }}>
+                <span style={{ color: "var(--accent)", fontFamily: "'DInter', sans-serif" }}>
                   {selected.issuer}
                 </span>
                 <span style={{ color: "var(--text3)" }}>·</span>
@@ -398,7 +398,7 @@ export default function Certificates() {
                       borderRadius: "8px",
                       border: "1px solid rgba(34,211,122,0.3)",
                       background: "rgba(34,211,122,0.08)",
-                      fontFamily: "'DM Mono', monospace",
+                      fontFamily: "'Inter', sans-serif",
                       transition: "all 0.2s",
                     }}
                     onMouseEnter={(e) => (e.currentTarget.style.background = "rgba(34,211,122,0.16)")}
@@ -419,7 +419,7 @@ export default function Certificates() {
                     padding: "8px 16px", borderRadius: "8px",
                     border: "1px solid rgba(255,255,255,0.08)",
                     background: "transparent", cursor: "pointer",
-                    fontFamily: "'DM Mono', monospace", transition: "all 0.2s",
+                    fontFamily: "'Inter', sans-serif", transition: "all 0.2s",
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.borderColor = "var(--accent)";
