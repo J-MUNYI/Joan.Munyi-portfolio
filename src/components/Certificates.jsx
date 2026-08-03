@@ -27,7 +27,7 @@ const certs = [
     id: 3,
     icon: <FaCode />,
     name: "Web 3 certificate of participation",
-    issuer: "Internet Computer",
+    issuer: "Blockwisely",
     date: "2024",
     image: "/certificates/cert-3.jpeg",
     color: "#f5a623",

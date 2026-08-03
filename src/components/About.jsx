@@ -26,7 +26,7 @@ const exploring = [
   {
     icon: BsDiagram3,
     title: "Full-Stack Engineering",
-    desc: "Deepening my understanding of scalable application architecture, clean code, and production-ready development practices..",
+    desc: "Deepening my understanding of scalable application architecture, clean code, and production ready development practices.",
   },
   {
     icon: FiSettings,

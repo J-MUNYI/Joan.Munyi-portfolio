@@ -92,7 +92,7 @@ export default function Hero() {
             marginBottom: "2.5rem", lineHeight: 1.7, fontWeight: 300,
           }}>
             I am a Full-Stack Software Developer who loves building practical, scalable and user friendly web applications across the frontend and backend.
-            I work primarily with modern Javascript technologies with my core stack being MERN, with hands-on experience in API development, database integration, authentication and deployment.
+            I work primarily with modern Javascript technologies with my core stack being MERN, with hands on experience in API development, database integration, authentication and deployment.
             I am also exploring AI powered applications and technologies with a growing interest of the intersection between intelligent systems and software engineering.
 
           </p>
