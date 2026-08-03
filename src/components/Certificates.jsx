@@ -109,7 +109,10 @@ export default function Certificates() {
           color: "var(--text)", marginBottom: "1rem",
         }}>
           What I've Earned
-        </h2>
+        </h2><p style = {{
+          fontSize: "1rem", color: "var(--text2)",
+          maxWidth: "500px", lineHeight: 1.7,
+        }}> A selection of certificates I've earned through various tech platforms. </p>
         <p style={{
           fontSize: "1rem", color: "var(--text2)",
           maxWidth: "500px", lineHeight: 1.7,

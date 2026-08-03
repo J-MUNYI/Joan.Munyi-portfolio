@@ -41,7 +41,7 @@ export default function Experience() {
         Where I've Been
       </h2>
       <p style={{ fontSize: "1rem", color: "var(--text2)", maxWidth: "500px", marginBottom: "3rem", lineHeight: 1.7 }}>
-        A developer and an entrepreneur — both sides feed the other.
+        A student developer and an entrepreneur. 
       </p>
 
       <div style={{ position: "relative", paddingLeft: "1.5rem" }}>

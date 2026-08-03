@@ -16,7 +16,7 @@ export default function Contact() {
           Let's Build Something
         </h2>
         <p style={{ fontSize: "1rem", color: "var(--text2)", maxWidth: "500px", marginBottom: "2rem", lineHeight: 1.7 }}>
-          Open to internships, freelance projects, and interesting collaborations.
+          Open to internships, freelance projects, and collaborations.
         </p>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "1.5rem" }}>
@@ -26,7 +26,7 @@ export default function Contact() {
               Ready to work together?
             </h3>
             <p style={{ color: "var(--text2)", marginBottom: "1.75rem", fontSize: "0.95rem" }}>
-              Whether it's a freelance build, an internship opportunity, or just a chat about tech — my inbox is open.
+              Whether it's a freelance build, an internship opportunity, or just a chat about tech,my inbox is open.
             </p>
             <a href="mailto:joan.munyi3@gmail.com">
               <button style={{
