@@ -69,7 +69,7 @@ export default function Hero() {
             fontSize: "0.78rem", color: "var(--text2)", fontFamily: "'DM Mono', monospace",
           }}>
             <span className="pulse-dot" style={{ width: 7, height: 7, borderRadius: "50%", background: "var(--green)", display: "inline-block" }} />
-            OPEN TO SOFTWARE DEVELOPMENT OPPORTUNITIES.
+            OPEN TO DEV OPPORTUNITIES.
           </div>
 
           <h1 style={{
