@@ -129,7 +129,7 @@ function ProjectCard({ project }) {
         flexWrap: "wrap",
       }}>
 
-        {/* Live link — only shown if project is live */}
+        {/* Live link */}
         {project.isLive && project.liveUrl ? (
           <a
             href={project.liveUrl}
