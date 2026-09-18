@@ -16,7 +16,7 @@ export default function Contact() {
           Let's Build Something
         </h2>
         <p style={{ fontSize: "1rem", color: "var(--text2)", maxWidth: "500px", marginBottom: "2rem", lineHeight: 1.7 }}>
-          Open to internships, freelance projects, and collaborations.
+          Open to internship, building projects, and collaborations.
         </p>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "1.5rem" }}>
