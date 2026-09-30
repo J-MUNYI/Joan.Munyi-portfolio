@@ -11,7 +11,7 @@ export default function Footer() {
       color: "var(--text3)", textAlign: "center",
       backgroundColor: "var(--bg)",
     }}>
-      <span>© {currentYear} Joan Munyi. All rights reserved.</span>
+      <span>© {currentYear} Joan N Munyi. All rights reserved.</span>
       <span style={{ margin: "0 6px", color: "var(--border)" }}>·</span>
       <span>
         A <strong style={{ color: "var(--accent)" }}>Muny1verse</strong> creation{" "}
