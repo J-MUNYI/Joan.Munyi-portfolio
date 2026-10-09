@@ -23,7 +23,7 @@ export default function Contact() {
           {/* CTA */}
           <div className="contact-cta" style={{ gridColumn: "1 / -1", background: "var(--surface)", border: "1px solid color-mix(in srgb, var(--accent) 30%, transparent)", borderRadius: "16px", padding: "2.5rem", textAlign: "center" }}>
             <h3 style={{ fontFamily: "'Inter', sans-serif", fontSize: "1.8rem", color: "var(--text)", marginBottom: "0.75rem" }}>
-              Ready to work together?
+              Ready to work together or collaborate?
             </h3>
             <p style={{ color: "var(--text2)", marginBottom: "1.75rem", fontSize: "0.95rem" }}>
               Whether it's a freelance build, an internship opportunity, or just a chat about tech,my inbox is open.
