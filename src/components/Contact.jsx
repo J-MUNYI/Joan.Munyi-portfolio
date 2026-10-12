@@ -26,7 +26,7 @@ export default function Contact() {
               Ready to work together or collaborate?
             </h3>
             <p style={{ color: "var(--text2)", marginBottom: "1.75rem", fontSize: "0.95rem" }}>
-              Whether it's a freelance build, an internship opportunity, or just a chat about tech,my inbox is open.
+              Whether it's a freelance build, an internship opportunity, or just a chat about tech, my inbox is open.
             </p>
             <a href="mailto:joan.munyi3@gmail.com">
               <button style={{
