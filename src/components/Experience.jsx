@@ -15,7 +15,7 @@ const timeline = [
     org: "Self-Employed · Nairobi, Kenya",
     date: "May 2024 – Present",
     points: [
-      "Founded and operate a small product business selling handmade beaded jewellery and beauty products.",
+      "Founded and operate a smallbusiness selling handmade beaded jewellery and beauty products.",
       "Handle product design, inventory, pricing, Instagram content creation, and fulfilment.",
       "Built a loyal repeat customer base through consistent branding and personalised service.",
     ],
