@@ -15,14 +15,14 @@ const timeline = [
     org: "Self-Employed · Nairobi, Kenya",
     date: "May 2024 – Present",
     points: [
-      "Founded and operate a smallbusiness selling handmade beaded jewellery and beauty products.",
+      "Founded and operate a small business selling handmade beaded jewellery and beauty products.",
       "Handle product design, inventory, pricing, Instagram content creation, and fulfilment.",
       "Built a loyal repeat customer base through consistent branding and personalised service.",
     ],
   },
   {
     role: "BSc. Computer Science",
-    org: "Kenyatta University",
+    org: "KU - Mama Ngina University College",
     date: "2024 – Present",
     points: [
       "Coursework: Data Structures & Algorithms, Object-Oriented Programming (Java), Web Development, System Analysis and Design, Software Testing and Quality Assurance, Database Systems (SQL), OS etc",
