@@ -1,5 +1,15 @@
 const timeline = [
   {
+    role: "Software Developer",
+    org: "Enkaare LLC",
+    date: "May 2026 – Sep. 2026",
+    points: [
+      "Work as a software developer in an agile team, building features for both web and mobile products.",
+      "Take part in sprints and turn Figma designs into responsive React and React Native screens, connecting them to backend APIs.",
+      "Debug code, test builds and track down faults on web and mobile.",
+    ],
+  },
+  {
     role: "Full stack Dev",
     org: "MERN Stack Development",
     date: "2025 – Present",
